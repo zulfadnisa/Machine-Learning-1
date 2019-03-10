@@ -10,7 +10,6 @@ bias=[0.5]
 
 def activation(row, t):
     result=0
-    activation=0
     for i in range(len(row)):
         result += weights[i] * row[i]
     result=result+bias
